@@ -38,8 +38,10 @@ export function Header({ onMenuClick, isSidebarOpen, isSidebarCollapsed, onToggl
   }, [])
 
   // Calcular progresso
-  const completedModules = user?.progress.completedModules.length ?? 0
-  const totalModules = 4
+    const completedModules = user?.progress.completedModules.length ?? 0
+    // Importa o total de módulos do JSON
+    import { getModulos } from '@/lib/modulos'
+    const totalModules = getModulos().length
 
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-surface-800 border-b border-surface-200 dark:border-surface-700 shadow-sm dark:shadow-none">
