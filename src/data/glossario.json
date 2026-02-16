@@ -1,0 +1,222 @@
+{
+  "termos": [
+    {
+      "id": "ans",
+      "termo": "Agência Nacional de Saúde Suplementar",
+      "sigla": "ANS",
+      "definicao": "Órgão regulador responsável por normatizar, controlar e fiscalizar os planos de saúde no Brasil. Está vinculada ao Ministério da Saúde.",
+      "exemplo": "A ANS estabelece regras sobre coberturas mínimas, prazos de atendimento e direitos do consumidor.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "dlp",
+      "termo": "Doenças ou Lesões Preexistentes",
+      "sigla": "DLP",
+      "definicao": "Doenças ou lesões que o beneficiário já sabia possuir no momento da contratação do plano de saúde. Devem ser informadas na declaração de saúde.",
+      "exemplo": "Um paciente diabético deve declarar sua condição como DLP ao contratar o plano.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "cpt",
+      "termo": "Cobertura Parcial Temporária",
+      "sigla": "CPT",
+      "definicao": "Período de até 24 meses em que ficam suspensas as coberturas de procedimentos de alta complexidade relacionados a doenças preexistentes declaradas.",
+      "exemplo": "Durante a CPT, cirurgias e UTI relacionadas à DLP não são cobertas.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "raih",
+      "termo": "Remoção Aérea Inter-Hospitalar",
+      "sigla": "RAIH",
+      "definicao": "Serviço opcional que possibilita ao cliente utilizar remoção aérea quando necessário para pacientes internados em UTI mudarem de hospital.",
+      "exemplo": "Paciente em UTI pode ser transferido de helicóptero para outro hospital se tiver RAIH.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "omt",
+      "termo": "Orientação Médica por Telefone",
+      "sigla": "OMT",
+      "definicao": "Serviço opcional que permite ao beneficiário entrar em contato com um médico por telefone 24 horas para tirar dúvidas e receber orientação médica.",
+      "exemplo": "Beneficiário liga para o OMT para saber se deve ir ao pronto-socorro com sintomas leves.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "fac",
+      "termo": "Fundo de Assistência Complementar",
+      "sigla": "FAC",
+      "definicao": "Benefício que permite aos dependentes do titular falecido permanecerem no plano por até 3 anos sem pagar mensalidades.",
+      "exemplo": "Após 180 dias de contrato, dependentes podem usar o FAC em caso de óbito do titular.",
+      "moduloId": "mod-6"
+    },
+    {
+      "id": "fas",
+      "termo": "Fundo de Assistência Suplementar",
+      "sigla": "FAS",
+      "definicao": "Benefício convertido em valor monetário destinado ao familiar de grau mais próximo do titular em caso de óbito.",
+      "exemplo": "Família tem 30 dias após o óbito para dar entrada no FAS.",
+      "moduloId": "mod-6"
+    },
+    {
+      "id": "nip",
+      "termo": "Notificação de Intermediação Preliminar",
+      "sigla": "NIP",
+      "definicao": "Instrumento que permite à ANS intermediar conflitos entre beneficiários e operadoras, exigindo respostas rápidas.",
+      "exemplo": "Beneficiário insatisfeito com negativa de procedimento pode acionar a NIP.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "nas",
+      "termo": "Núcleo de Atenção à Saúde",
+      "sigla": "NAS",
+      "definicao": "Unidade própria da Unimed Cariri para atendimento ambulatorial e serviços de saúde.",
+      "moduloId": "mod-1"
+    },
+    {
+      "id": "huc",
+      "termo": "Hospital Unimed Cariri",
+      "sigla": "HUC",
+      "definicao": "Hospital próprio da Unimed Cariri que oferece atendimento hospitalar completo aos beneficiários.",
+      "moduloId": "mod-1"
+    },
+    {
+      "id": "cooperativismo",
+      "termo": "Cooperativismo",
+      "definicao": "Modelo de negócio baseado na união de pessoas que compartilham o mesmo propósito. Na Unimed, todos os médicos cooperados são formadores da empresa.",
+      "exemplo": "A Unimed não tem um único dono, pois funciona pelo modelo de cooperativismo.",
+      "moduloId": "mod-1"
+    },
+    {
+      "id": "saude-suplementar",
+      "termo": "Saúde Suplementar",
+      "definicao": "Sistema que oferece serviços de saúde privados, permitindo aos beneficiários acessar mais opções de atendimento além do serviço público (SUS).",
+      "exemplo": "Quem tem plano de saúde utiliza o sistema de Saúde Suplementar.",
+      "moduloId": "mod-1"
+    },
+    {
+      "id": "operadora",
+      "termo": "Operadora de Plano de Saúde",
+      "definicao": "Empresa responsável por organizar, oferecer e administrar planos de saúde privados. Conecta o cliente aos cuidados de saúde.",
+      "exemplo": "A Unimed Cariri é uma operadora de plano de saúde.",
+      "moduloId": "mod-1"
+    },
+    {
+      "id": "beneficiario",
+      "termo": "Beneficiário",
+      "definicao": "Pessoa que possui direito aos serviços oferecidos pelo plano de saúde, seja como titular ou dependente.",
+      "exemplo": "O beneficiário pode ser o próprio contratante ou seus dependentes.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "titular",
+      "termo": "Titular",
+      "definicao": "Pessoa física que contrata e é responsável pelo plano de saúde, podendo incluir dependentes.",
+      "exemplo": "O titular é quem assina o contrato e paga as mensalidades.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "dependente",
+      "termo": "Dependente",
+      "definicao": "Pessoa vinculada ao plano de saúde através do titular, conforme regras estabelecidas no contrato.",
+      "exemplo": "Cônjuge e filhos podem ser incluídos como dependentes no plano.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "carencia",
+      "termo": "Carência",
+      "definicao": "Período determinado em contrato durante o qual o beneficiário ainda não pode utilizar todos os serviços do plano de saúde.",
+      "exemplo": "A carência para cirurgias eletivas é de 180 dias após a contratação.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "coparticipacao",
+      "termo": "Coparticipação",
+      "definicao": "Valor extra pago ao plano de saúde além da mensalidade, cobrado proporcionalmente à utilização de serviços.",
+      "exemplo": "Em planos com 20% de coparticipação, o beneficiário paga 20% do valor de cada consulta.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "rede-credenciada",
+      "termo": "Rede Credenciada",
+      "definicao": "Conjunto de médicos, clínicas, laboratórios e hospitais conveniados à operadora de plano de saúde.",
+      "exemplo": "O beneficiário deve consultar se o médico faz parte da rede credenciada antes da consulta.",
+      "moduloId": "mod-2"
+    },
+    {
+      "id": "urgencia",
+      "termo": "Urgência",
+      "definicao": "Situação resultante de acidente pessoal ou complicações no processo gestacional, que demanda atendimento imediato.",
+      "exemplo": "Fraturas, cortes profundos e ameaça de aborto são exemplos de urgência.",
+      "moduloId": "mod-4"
+    },
+    {
+      "id": "emergencia",
+      "termo": "Emergência",
+      "definicao": "Situação em que há risco imediato de morte ou de lesões irreparáveis para o paciente, exigindo atendimento imediato.",
+      "exemplo": "Infarto, AVC e hemorragias intensas são exemplos de emergência.",
+      "moduloId": "mod-4"
+    },
+    {
+      "id": "intercambio",
+      "termo": "Intercâmbio Unimed",
+      "definicao": "Sistema que permite que um beneficiário seja atendido por outra Unimed fora da sua Unimed de origem, respeitando a área de abrangência contratada.",
+      "exemplo": "Beneficiário da Unimed Cariri pode ser atendido pela Unimed Fortaleza em viagem.",
+      "moduloId": "mod-4"
+    },
+    {
+      "id": "unimed-executora",
+      "termo": "Unimed Executora",
+      "definicao": "No sistema de Intercâmbio, é a Unimed que está realizando o atendimento ao beneficiário de outra Unimed.",
+      "exemplo": "Se paciente da Unimed Cariri é atendido em Fortaleza, a Unimed Fortaleza é a Executora.",
+      "moduloId": "mod-4"
+    },
+    {
+      "id": "unimed-origem",
+      "termo": "Unimed de Origem",
+      "definicao": "No sistema de Intercâmbio, é a Unimed onde o beneficiário contratou o plano, responsável por validar coberturas e custos.",
+      "exemplo": "A Unimed de Origem autoriza ou nega os pedidos feitos pela Unimed Executora.",
+      "moduloId": "mod-4"
+    },
+    {
+      "id": "reajuste-anual",
+      "termo": "Reajuste Anual",
+      "definicao": "Ajuste aplicado uma vez por ano na mensalidade do plano, na data de aniversário do contrato.",
+      "exemplo": "Para planos pessoa física, o índice de reajuste anual é definido pela ANS.",
+      "moduloId": "mod-5"
+    },
+    {
+      "id": "reajuste-faixa-etaria",
+      "termo": "Reajuste por Faixa Etária",
+      "definicao": "Ajuste aplicado quando o beneficiário muda de faixa etária, ocorrendo no mês seguinte ao aniversário.",
+      "exemplo": "Existem 10 faixas etárias, sendo a última a partir dos 59 anos.",
+      "moduloId": "mod-5"
+    },
+    {
+      "id": "rol-ans",
+      "termo": "Rol de Procedimentos da ANS",
+      "definicao": "Lista oficial de procedimentos, exames, consultas, terapias e cirurgias que todos os planos regulamentados devem obrigatoriamente oferecer.",
+      "exemplo": "O Rol é atualizado periodicamente para incluir novos tratamentos.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "contrato-regulamentado",
+      "termo": "Contrato Regulamentado",
+      "definicao": "Contrato que segue integralmente as regras da Lei nº 9.656/98 e as normas da ANS, aplicado a planos firmados a partir de 01/01/1999.",
+      "exemplo": "Contratos regulamentados devem cumprir o Rol da ANS e regras de carência.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "contrato-nao-regulamentado",
+      "termo": "Contrato Não Regulamentado",
+      "definicao": "Contrato firmado antes de 01/01/1999 que não foi adaptado às regras da Lei nº 9.656/98, com coberturas limitadas ao contrato original.",
+      "exemplo": "Contratos antigos podem ter restrições que não existem nos regulamentados.",
+      "moduloId": "mod-3"
+    },
+    {
+      "id": "area-abrangencia",
+      "termo": "Área de Abrangência",
+      "definicao": "Define os locais onde o beneficiário poderá utilizar o plano e receber atendimento: regional, estadual ou nacional.",
+      "exemplo": "Um plano com abrangência estadual no Ceará não cobre atendimentos em outros estados.",
+      "moduloId": "mod-2"
+    }
+  ]
+}

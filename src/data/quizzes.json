@@ -1,0 +1,374 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz-mod1",
+      "moduloId": "mod-1",
+      "titulo": "Quiz: Sistema Unimed",
+      "questoes": [
+        {
+          "id": "q1-1",
+          "pergunta": "Em que ano a Unimed Cariri foi fundada?",
+          "opcoes": ["1967", "1984", "1999", "2005"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed Cariri foi fundada em 1984, representando 31 cidades da região do Cariri.",
+          "trechoReferencia": "A Unimed Cariri foi fundada em 1984, desde então representa 31 cidades da região."
+        },
+        {
+          "id": "q1-2",
+          "pergunta": "Em que ano o Sistema Unimed foi criado?",
+          "opcoes": ["1957", "1967", "1977", "1987"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed foi criada em 1967 por médicos visando oferecer assistência de qualidade.",
+          "trechoReferencia": "A Unimed é o maior Sistema Cooperativo de Saúde do Mundo, criado em 1967 por médicos."
+        },
+        {
+          "id": "q1-3",
+          "pergunta": "Quantas cidades a Unimed Cariri representa?",
+          "opcoes": ["21 cidades", "31 cidades", "41 cidades", "51 cidades"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed Cariri representa 31 cidades da região do Cariri.",
+          "trechoReferencia": "A Unimed Cariri foi fundada em 1984, desde então representa 31 cidades da região."
+        },
+        {
+          "id": "q1-4",
+          "pergunta": "Como é chamado o modelo de negócio da Unimed?",
+          "opcoes": ["Sociedade Anônima", "Cooperativismo", "Franquia", "Holding"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed faz parte do Cooperativismo, onde todos os médicos cooperados atuam como formadores da empresa.",
+          "trechoReferencia": "Fazemos parte do Cooperativismo, um modelo baseado na união de pessoas que compartilham o mesmo propósito."
+        },
+        {
+          "id": "q1-5",
+          "pergunta": "Quem são os 'donos' da Unimed?",
+          "opcoes": ["Acionistas externos", "Governo federal", "Médicos cooperados", "Investidores privados"],
+          "respostaCorreta": 2,
+          "explicacao": "A Unimed não possui apenas um dono - todos os médicos cooperados atuam como formadores da empresa.",
+          "trechoReferencia": "A Unimed não possui apenas um dono, todos os Médicos Cooperados atuam como formadores da empresa."
+        },
+        {
+          "id": "q1-6",
+          "pergunta": "Quantas Unimeds existem no estado do Ceará?",
+          "opcoes": ["2 Unimeds", "4 Unimeds", "6 Unimeds", "8 Unimeds"],
+          "respostaCorreta": 1,
+          "explicacao": "No Ceará existem 4 Unimeds: Unimed Ceará, Unimed Fortaleza, Unimed Sobral e Unimed Cariri.",
+          "trechoReferencia": "No Ceará são 4: Unimed Ceará, Unimed Fortaleza, Unimed Sobral e Unimed Cariri."
+        },
+        {
+          "id": "q1-7",
+          "pergunta": "Qual NÃO é uma unidade própria da Unimed Cariri?",
+          "opcoes": ["Núcleo de Atenção à Saúde (NAS)", "Hospital Unimed Cariri (HUC)", "Unidade Lagoa Seca", "Hospital Regional do Cariri"],
+          "respostaCorreta": 3,
+          "explicacao": "As unidades próprias são: NAS, HUC e Núcleo de Atenção à Saúde - Unidade Lagoa Seca.",
+          "trechoReferencia": "Contamos com 3 recursos: o Núcleo de Atenção à Saúde (NAS), o Hospital Unimed Cariri (HUC) e o Núcleo de Atenção à Saúde - Unidade Lagoa Seca."
+        }
+      ]
+    },
+    {
+      "id": "quiz-mod2",
+      "moduloId": "mod-2",
+      "titulo": "Quiz: Planos de Saúde",
+      "questoes": [
+        {
+          "id": "q2-1",
+          "pergunta": "Qual órgão regula os planos de saúde no Brasil?",
+          "opcoes": ["ANVISA", "ANS", "ANATEL", "IBAMA"],
+          "respostaCorreta": 1,
+          "explicacao": "A ANS (Agência Nacional de Saúde Suplementar) é o órgão regulador responsável por normatizar, controlar e fiscalizar os planos de saúde.",
+          "trechoReferencia": "A Agência Nacional de Saúde Suplementar, conhecida como ANS, é o órgão regulador responsável por normatizar, controlar e fiscalizar os planos de saúde no Brasil."
+        },
+        {
+          "id": "q2-2",
+          "pergunta": "O que é a NIP?",
+          "opcoes": ["Número de Identificação do Paciente", "Notificação de Intermediação Preliminar", "Norma de Inspeção de Procedimentos", "Núcleo de Informações ao Paciente"],
+          "respostaCorreta": 1,
+          "explicacao": "A NIP (Notificação de Intermediação Preliminar) é um instrumento que permite à ANS intermediar conflitos entre beneficiários e operadoras.",
+          "trechoReferencia": "Os beneficiários podem acionar a NIP (Notificação de Intermediação Preliminar), um instrumento que permite à ANS intermediar conflitos."
+        },
+        {
+          "id": "q2-3",
+          "pergunta": "Quais são os tipos de contratação de plano de saúde?",
+          "opcoes": ["Premium e Básico", "Pessoa Física e Pessoa Jurídica", "Regional e Nacional", "Individual e Coletivo"],
+          "respostaCorreta": 1,
+          "explicacao": "Os tipos de contratação são Pessoa Física (Individual/Familiar) e Pessoa Jurídica (Empresarial/Adesão).",
+          "trechoReferencia": "Plano Pessoa Física, também conhecido como Individual ou Familiar... Plano Pessoa Jurídica, pode ser Empresarial ou por Adesão."
+        },
+        {
+          "id": "q2-4",
+          "pergunta": "Quais são os tipos de acomodação hospitalar?",
+          "opcoes": ["Suíte e Standard", "Enfermaria e Apartamento", "Básico e Premium", "Individual e Compartilhado"],
+          "respostaCorreta": 1,
+          "explicacao": "Os tipos de acomodação são Enfermaria (quarto compartilhado) e Apartamento (quarto individual).",
+          "trechoReferencia": "Enfermaria, que é o quarto compartilhado com outros pacientes; Apartamento, que é o quarto individual."
+        },
+        {
+          "id": "q2-5",
+          "pergunta": "Quais percentuais de coparticipação a Unimed Cariri oferece?",
+          "opcoes": ["10% ou 30%", "20% ou 40%", "25% ou 50%", "15% ou 35%"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed Cariri tem planos com coparticipação de 20% ou 40%, ou também sem coparticipação.",
+          "trechoReferencia": "Hoje, a Unimed Cariri tem planos com coparticipação de 20% ou 40%, ou também sem coparticipação."
+        },
+        {
+          "id": "q2-6",
+          "pergunta": "O que significa RAIH?",
+          "opcoes": ["Registro de Atendimento Inter-Hospitalar", "Remoção Aérea Inter-Hospitalar", "Relatório Anual de Internações Hospitalares", "Rede de Assistência Integral Hospitalar"],
+          "respostaCorreta": 1,
+          "explicacao": "RAIH significa Remoção Aérea Inter-Hospitalar, um serviço opcional para remoção aérea de pacientes internados em UTI.",
+          "trechoReferencia": "Remoção Aérea Inter-Hospitalar (RAIH): possibilita ao cliente utilizar a remoção aérea quando necessário para pacientes internados em UTI mudarem de hospital."
+        },
+        {
+          "id": "q2-7",
+          "pergunta": "O que é o serviço OMT?",
+          "opcoes": ["Orientação Médica por Telefone", "Operação de Monitoramento Técnico", "Ordem Médica de Tratamento", "Organização de Marcação de Turnos"],
+          "respostaCorreta": 0,
+          "explicacao": "OMT é a Orientação Médica por Telefone, permitindo ao beneficiário entrar em contato com um médico 24h para tirar dúvidas.",
+          "trechoReferencia": "Orientação Médica por Telefone (OMT): o beneficiário pode entrar em contato com um médico por telefone para tirar dúvidas e ou ter orientação médica disponível 24 horas."
+        }
+      ]
+    },
+    {
+      "id": "quiz-mod3",
+      "moduloId": "mod-3",
+      "titulo": "Quiz: Carências e Coberturas",
+      "questoes": [
+        {
+          "id": "q3-1",
+          "pergunta": "Qual é o prazo de carência para urgência e emergência?",
+          "opcoes": ["Imediato", "24 horas", "48 horas", "7 dias"],
+          "respostaCorreta": 1,
+          "explicacao": "O prazo de carência para atendimentos de urgência e emergência é de 24 horas.",
+          "trechoReferencia": "24 horas para atendimentos de urgência e emergência."
+        },
+        {
+          "id": "q3-2",
+          "pergunta": "Qual é o prazo de carência para a maioria dos procedimentos?",
+          "opcoes": ["90 dias", "120 dias", "180 dias", "365 dias"],
+          "respostaCorreta": 2,
+          "explicacao": "O prazo de carência para a maioria dos procedimentos é de 180 dias.",
+          "trechoReferencia": "180 dias para a maioria dos procedimentos."
+        },
+        {
+          "id": "q3-3",
+          "pergunta": "Qual é o prazo de carência para parto a termo?",
+          "opcoes": ["180 dias", "240 dias", "300 dias", "365 dias"],
+          "respostaCorreta": 2,
+          "explicacao": "O prazo de carência para parto a termo é de 300 dias.",
+          "trechoReferencia": "300 dias para parte a termo."
+        },
+        {
+          "id": "q3-4",
+          "pergunta": "O que é o Rol da ANS?",
+          "opcoes": ["Lista de médicos credenciados", "Lista de procedimentos obrigatórios", "Ranking de operadoras", "Calendário de carências"],
+          "respostaCorreta": 1,
+          "explicacao": "O Rol da ANS é a lista oficial de procedimentos que todos os planos devem obrigatoriamente oferecer.",
+          "trechoReferencia": "O Rol da ANS é uma lista oficial de procedimentos, exames, consultas, terapias e cirurgias que todos os planos de saúde regulamentados devem obrigatoriamente oferecer."
+        },
+        {
+          "id": "q3-5",
+          "pergunta": "A partir de quando os contratos são considerados regulamentados?",
+          "opcoes": ["1º de janeiro de 1995", "1º de janeiro de 1999", "1º de janeiro de 2000", "1º de janeiro de 2005"],
+          "respostaCorreta": 1,
+          "explicacao": "Contratos firmados a partir de 1º de janeiro de 1999 ou adaptados à Lei nº 9.656/98 são considerados regulamentados.",
+          "trechoReferencia": "Esse modelo é aplicado aos planos firmados a partir de 1° de janeiro de 1999."
+        },
+        {
+          "id": "q3-6",
+          "pergunta": "O que significa CPT?",
+          "opcoes": ["Código de Procedimento Técnico", "Cobertura Parcial Temporária", "Contrato de Plano de Tratamento", "Central de Pronto Tratamento"],
+          "respostaCorreta": 1,
+          "explicacao": "CPT significa Cobertura Parcial Temporária, aplicada quando há identificação de uma DLP (Doença ou Lesão Preexistente).",
+          "trechoReferencia": "Quando ha a identificação de uma DLP, a operadora pode aplicar a chamada Cobertura Parcial Temporária, ou CPT."
+        },
+        {
+          "id": "q3-7",
+          "pergunta": "Por quanto tempo dura a Cobertura Parcial Temporária (CPT)?",
+          "opcoes": ["6 meses", "12 meses", "18 meses", "24 meses"],
+          "respostaCorreta": 3,
+          "explicacao": "A CPT tem duração máxima de 24 meses.",
+          "trechoReferencia": "A CPT significa que, por um período máximo de 24 meses, ficam suspensas as coberturas de procedimentos de alta complexidade."
+        }
+      ]
+    },
+    {
+      "id": "quiz-mod4",
+      "moduloId": "mod-4",
+      "titulo": "Quiz: Urgência e Emergência",
+      "questoes": [
+        {
+          "id": "q4-1",
+          "pergunta": "O que caracteriza uma situação de URGÊNCIA?",
+          "opcoes": ["Risco imediato de morte", "Acidente pessoal ou complicação gestacional", "Consulta de rotina", "Exame preventivo"],
+          "respostaCorreta": 1,
+          "explicacao": "Urgência é uma situação resultante de acidente pessoal ou complicações no processo gestacional.",
+          "trechoReferencia": "Urgência é uma situação resultante de acidente pessoal ou complicações no processo gestacional."
+        },
+        {
+          "id": "q4-2",
+          "pergunta": "O que caracteriza uma situação de EMERGÊNCIA?",
+          "opcoes": ["Consulta médica agendada", "Exame de rotina", "Risco imediato de morte ou lesão irreparável", "Acompanhamento nutricional"],
+          "respostaCorreta": 2,
+          "explicacao": "Emergência ocorre quando há risco imediato de morte ou de lesões irreparáveis para o paciente.",
+          "trechoReferencia": "Já a Emergência ocorre quando há risco imediato de morte ou de lesões irreparáveis para o paciente."
+        },
+        {
+          "id": "q4-3",
+          "pergunta": "Quantas horas de atendimento ambulatorial o plano garante em emergência durante carência?",
+          "opcoes": ["6 horas", "12 horas", "24 horas", "48 horas"],
+          "respostaCorreta": 1,
+          "explicacao": "Durante o período de carência, o plano garante até 12 horas de atendimento ambulatorial em ambiente hospitalar.",
+          "trechoReferencia": "Após 24 horas da contratação, o plano garantie até 12 horas de atendimento ambulatorial em ambiente hospitalar."
+        },
+        {
+          "id": "q4-4",
+          "pergunta": "No Intercâmbio Unimed, quem é responsável por validar as coberturas do plano?",
+          "opcoes": ["Unimed Executora", "Unimed de Origem", "ANS", "Ministério da Saúde"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed de Origem é responsável por validar as coberturas do plano e assumir os custos financeiros.",
+          "trechoReferencia": "A Unimed de Origem é aquela onde o beneficiário contratou o plano, sendo encarregada de validar as coberturas do plano."
+        },
+        {
+          "id": "q4-5",
+          "pergunta": "O que é a Unimed Executora no sistema de intercâmbio?",
+          "opcoes": ["A que contratou o plano", "A que realiza o atendimento", "A matriz nacional", "A que emite o cartão"],
+          "respostaCorreta": 1,
+          "explicacao": "A Unimed Executora é aquela que está realizando o atendimento ao beneficiário.",
+          "trechoReferencia": "A Unimed Executora é aquela que está realizando o atendimento."
+        },
+        {
+          "id": "q4-6",
+          "pergunta": "Qual é o exemplo de situação de emergência mencionado no treinamento?",
+          "opcoes": ["Dor de cabeça leve", "Consulta de rotina", "Infarto ou AVC", "Exame de sangue"],
+          "respostaCorreta": 2,
+          "explicacao": "Exemplos de emergência incluem infarto, AVC, crises respiratórias graves ou hemorragias intensas.",
+          "trechoReferencia": "São casos como infarto, AVC, crises respiratórias graves ou hemorragias intensas, que exigem atendimento imediato."
+        }
+      ]
+    },
+    {
+      "id": "quiz-mod5",
+      "moduloId": "mod-5",
+      "titulo": "Quiz: Reajustes e Cancelamentos",
+      "questoes": [
+        {
+          "id": "q5-1",
+          "pergunta": "Quantos tipos de reajuste de mensalidade existem?",
+          "opcoes": ["1 tipo", "2 tipos", "3 tipos", "4 tipos"],
+          "respostaCorreta": 1,
+          "explicacao": "Existem dois tipos de reajuste: o anual e o de faixa etária.",
+          "trechoReferencia": "Existem dois tipos de reajuste de mensalidades: o anual e o de faixa etária."
+        },
+        {
+          "id": "q5-2",
+          "pergunta": "Quem define o índice de reajuste anual para planos pessoa física?",
+          "opcoes": ["A operadora", "A ANS", "O beneficiário", "O sindicato"],
+          "respostaCorreta": 1,
+          "explicacao": "Para planos pessoa física, o índice de reajuste anual é definido e autorizado pela ANS.",
+          "trechoReferencia": "No caso dos planos pessoa física, o índice é definido e autorizado pela ANS e é o mesmo para todas as operadoras."
+        },
+        {
+          "id": "q5-3",
+          "pergunta": "Quantas faixas etárias são definidas pela ANS?",
+          "opcoes": ["5 faixas", "8 faixas", "10 faixas", "12 faixas"],
+          "respostaCorreta": 2,
+          "explicacao": "Atualmente, existem 10 faixas etárias definidas pela ANS, sendo a última a partir dos 59 anos.",
+          "trechoReferencia": "Atualmente, existem 10 faixas etárias, sendo a última a partir dos 59 anos."
+        },
+        {
+          "id": "q5-4",
+          "pergunta": "Após quantas mensalidades em atraso a operadora pode cancelar o plano?",
+          "opcoes": ["1 mensalidade", "2 mensalidades", "3 mensalidades", "6 mensalidades"],
+          "respostaCorreta": 1,
+          "explicacao": "O cancelamento só é permitido após não pagamento de duas mensalidades, com aviso e prazo de tolerância de até 60 dias.",
+          "trechoReferencia": "Não pagamento de duas mensalidades, após aviso e prazo de tolerância de até 60 dias."
+        },
+        {
+          "id": "q5-5",
+          "pergunta": "Qual é o prazo de tolerância para pagamento antes do cancelamento?",
+          "opcoes": ["30 dias", "45 dias", "60 dias", "90 dias"],
+          "respostaCorreta": 2,
+          "explicacao": "A operadora deve dar um prazo de tolerância de até 60 dias antes de cancelar por inadimplência.",
+          "trechoReferencia": "Não pagamento de duas mensalidades, após aviso e prazo de tolerância de até 60 dias."
+        },
+        {
+          "id": "q5-6",
+          "pergunta": "Quando ocorre o reajuste por faixa etária em relação ao aniversário?",
+          "opcoes": ["No mesmo mês", "No mês seguinte", "Após 3 meses", "No início do ano"],
+          "respostaCorreta": 1,
+          "explicacao": "O reajuste por faixa etária ocorre sempre no mês seguinte ao mês de aniversário do beneficiário.",
+          "trechoReferencia": "Sempre vai ocorrer no mês seguinte ao mês de aniversário do beneficiário."
+        },
+        {
+          "id": "q5-7",
+          "pergunta": "O que significa DLP?",
+          "opcoes": ["Direito Legal do Paciente", "Doenças ou Lesões Preexistentes", "Documento Legal de Plano", "Declaração de Laudo Pericial"],
+          "respostaCorreta": 1,
+          "explicacao": "DLP significa Doenças ou Lesões Preexistentes, que o beneficiário já sabia possuir na contratação.",
+          "trechoReferencia": "Doenças ou Lesões Preexistentes, conhecidas como DLP, são aquelas que o beneficiário já sabia possuir no momento da contratação."
+        }
+      ]
+    },
+    {
+      "id": "quiz-mod6",
+      "moduloId": "mod-6",
+      "titulo": "Quiz: Benefícios FAC e FAS",
+      "questoes": [
+        {
+          "id": "q6-1",
+          "pergunta": "O que significa FAC?",
+          "opcoes": ["Fundo de Apoio ao Cliente", "Fundo de Assistência Complementar", "Formulário de Atendimento Centralizado", "Ficha de Análise Clínica"],
+          "respostaCorreta": 1,
+          "explicacao": "FAC significa Fundo de Assistência Complementar, benefício que permite dependentes permanecerem no plano após óbito do titular.",
+          "trechoReferencia": "Fundo de Assistência Complementar (FAC) Significa que, quando ocorre o falecimento do beneficiário titular, os dependentes inscritos no contrato podem permanecer no plano."
+        },
+        {
+          "id": "q6-2",
+          "pergunta": "Por quanto tempo os dependentes podem permanecer no plano após o óbito do titular (FAC)?",
+          "opcoes": ["1 ano", "2 anos", "3 anos", "5 anos"],
+          "respostaCorreta": 2,
+          "explicacao": "Com o FAC, os dependentes podem permanecer no plano por até 3 anos sem pagar mensalidades.",
+          "trechoReferencia": "Os dependentes inscritos no contrato podem permanecer no plano por até 3 anos sem pagar suas mensalidades."
+        },
+        {
+          "id": "q6-3",
+          "pergunta": "Qual é o tempo mínimo de contrato para ter direito ao FAC?",
+          "opcoes": ["90 dias", "120 dias", "180 dias", "365 dias"],
+          "respostaCorreta": 2,
+          "explicacao": "Para ter direito ao FAC, o contrato precisa ter mais de 180 dias.",
+          "trechoReferencia": "O contrato precisa ter mais de 180 dias."
+        },
+        {
+          "id": "q6-4",
+          "pergunta": "O que significa FAS?",
+          "opcoes": ["Fundo de Apoio Social", "Fundo de Assistência Suplementar", "Formulário de Atendimento Secundário", "Ficha de Avaliação de Saúde"],
+          "respostaCorreta": 1,
+          "explicacao": "FAS significa Fundo de Assistência Suplementar, um benefício convertido em valor para familiares em caso de óbito.",
+          "trechoReferencia": "Fundo de Assistência Suplementar (FAS) É um beneficio convertido em valor que é destinado ao familiar de grau mais próximo do titular."
+        },
+        {
+          "id": "q6-5",
+          "pergunta": "Qual é o prazo de carência para o FAS?",
+          "opcoes": ["3 meses", "5 meses", "7 meses", "12 meses"],
+          "respostaCorreta": 2,
+          "explicacao": "É necessário ter cumprido o período de 7 meses em carência para ter direito ao FAS.",
+          "trechoReferencia": "É necessário ter cumprido o período de 7 meses em carência."
+        },
+        {
+          "id": "q6-6",
+          "pergunta": "Qual é o prazo para a família dar entrada no FAS após o óbito?",
+          "opcoes": ["15 dias", "30 dias", "60 dias", "90 dias"],
+          "respostaCorreta": 1,
+          "explicacao": "Após o óbito, a família tem 30 dias para dar entrada no pedido do FAS.",
+          "trechoReferencia": "Após o óbito, a familia tem 30 dias para dar entrada."
+        },
+        {
+          "id": "q6-7",
+          "pergunta": "Para dependentes incluídos após a inscrição inicial, qual é a carência adicional para o FAC?",
+          "opcoes": ["3 meses", "6 meses", "12 meses", "18 meses"],
+          "respostaCorreta": 2,
+          "explicacao": "Se algum dependente for incluído após a inscrição, terá carência de 12 meses para ter direito ao FAC.",
+          "trechoReferencia": "Se algum dependente for incluído após a inscrição, terá que se sujeitar a uma carência de 12 meses para tal direito."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "modulos": [
+    {
+      "id": "mod-1",
+      "ordem": 1,
+      "titulo": "Fundamentos Unimed",
+      "descricao": "Conheça o Sistema Unimed e seus princípios cooperativistas",
+      "duracao": 15,
+      "cor": "#00A859",
+      "icone": "building-2",
+      "licoes": [
+        {
+          "id": "lic-1-1",
+          "titulo": "Sistema Unimed e Cooperativismo",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "Seja bem-vindo a Unimed Cariri! Para nós, é uma alegria ter você conosco! Agora você faz parte de uma empresa que valoriza a saúde, o bem-estar e o cuidado." },
+            { "tipo": "destaque", "conteudo": "A Unimed é o maior Sistema Cooperativo de Saúde do Mundo, criado em 1967 por médicos visando oferecer assistência de qualidade.", "cor": "green" },
+            { "tipo": "texto", "conteudo": "Fazemos parte do Cooperativismo, um modelo baseado na união de pessoas que compartilham o mesmo propósito. Por isso, a Unimed não possui apenas um dono, todos os Médicos Cooperados atuam como formadores da empresa." },
+            { "tipo": "definicao", "termo": "Cooperativismo", "explicacao": "Modelo de organização baseado na união de pessoas com propósitos em comum, onde todos são donos e participam das decisões." },
+            { "tipo": "importante", "texto": "A Unimed Cariri foi fundada em 1984. Desde então, representa 31 cidades da região, com ampla rede credenciada." },
+            { "tipo": "lista", "titulo": "Unidades Próprias de Atendimento", "itens": [
+              "Núcleo de Atenção à Saúde (NAS)",
+              "Hospital Unimed Cariri (HUC)",
+              "Núcleo de Atenção à Saúde - Unidade Lagoa Seca"
+            ]}
+          ]
+        },
+        {
+          "id": "lic-1-2",
+          "titulo": "Operadoras e Saúde Suplementar",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Operadora de Plano de Saúde", "explicacao": "Empresa responsável por organizar, oferecer e administrar planos de saúde privados. Ela não presta os serviços médicos diretamente, mas garante que os beneficiários tenham acesso por uma rede de atendimento." },
+            { "tipo": "texto", "conteudo": "Dentro do sistema Unimed, existem diversas Operadoras que seguem os mesmos princípios, mas de forma independente com gestões próprias." },
+            { "tipo": "exemplo", "titulo": "Unimeds no Ceará", "conteudo": "Existem centenas de Unimeds espalhadas pelo Brasil. No Ceará, são 4: Unimed Ceará, Unimed Fortaleza, Unimed Sobral e Unimed Cariri." },
+            { "tipo": "destaque", "conteudo": "A operadora é o elo que conecta o cliente aos cuidados de Saúde Suplementar, garantindo atendimento seguro, rápido e dentro das legislações.", "cor": "blue" },
+            { "tipo": "definicao", "termo": "Saúde Suplementar", "explicacao": "Conjunto de serviços em saúde que oferecemos, permitindo aos beneficiários acessar mais opções de atendimento, além do serviço público." },
+            { "tipo": "texto", "conteudo": "A Saúde Suplementar é o sistema que amplia as opções, ferramentas e instituições de serviços de saúde, enquanto as operadoras são as empresas que organizam e garantem o atendimento seguindo as regulamentações." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod-2",
+      "ordem": 2,
+      "titulo": "Mercado e Regulamentação",
+      "descricao": "Entenda a ANS e as normas que regem os planos de saúde",
+      "duracao": 20,
+      "cor": "#0066CC",
+      "icone": "⚖️",
+      "licoes": [
+        {
+          "id": "lic-2-1",
+          "titulo": "ANS e Regulamentações",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "ANS - Agência Nacional de Saúde Suplementar", "explicacao": "Órgão regulador responsável por normatizar, controlar e fiscalizar os planos de saúde no Brasil. Está vinculada ao Ministério da Saúde." },
+            { "tipo": "texto", "conteudo": "A ANS atua para garantir que o setor funcione de forma equilibrada, segura e transparente." },
+            { "tipo": "destaque", "conteudo": "A ANS estabelece regras obrigatórias através de Resoluções Normativas, que devem ser seguidas pelas operadoras de planos de saúde.", "cor": "blue" },
+            { "tipo": "lista", "titulo": "As normas da ANS envolvem", "itens": [
+              "Coberturas mínimas obrigatórias",
+              "Prazos de atendimento",
+              "Carências permitidas",
+              "Remoções de pacientes",
+              "Continuidade do cuidado",
+              "Direitos do consumidor"
+            ]}
+          ]
+        },
+        {
+          "id": "lic-2-2",
+          "titulo": "Resoluções e Fiscalização",
+          "duracao": 6,
+          "conteudo": [
+            { "tipo": "importante", "texto": "O cumprimento das Resoluções Normativas é obrigatório. A inconformidade pode causar punição ou sanções administrativas." },
+            { "tipo": "lista", "titulo": "Possíveis sanções da ANS", "itens": [
+              "Advertências",
+              "Multas",
+              "Suspensão da comercialização de planos",
+              "Intervenção na operadora",
+              "Cancelamento do registro da operadora"
+            ]},
+            { "tipo": "definicao", "termo": "NIP - Notificação de Intermediação Preliminar", "explicacao": "Instrumento que permite à ANS intermediar conflitos entre beneficiários e operadoras, exigindo respostas rápidas das operadoras." },
+            { "tipo": "destaque", "conteudo": "Os beneficiários podem acionar a NIP para resolver conflitos de forma mais ágil com a operadora.", "cor": "green" }
+          ]
+        },
+        {
+          "id": "lic-2-3",
+          "titulo": "Rol da ANS",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Rol da ANS", "explicacao": "Lista oficial de procedimentos, exames, consultas, terapias e cirurgias que todos os planos de saúde regulamentados devem obrigatoriamente oferecer aos beneficiários." },
+            { "tipo": "destaque", "conteudo": "O Rol é atualizado periodicamente para incluir novos tratamentos e tecnologias, garantindo acesso a cuidados médicos essenciais e atualizados.", "cor": "green" },
+            { "tipo": "importante", "texto": "O Rol da ANS vale para todos os planos regulamentados. Contratos não regulamentados seguem as regras do contrato original, sem obrigatoriedade de incluir tudo que está no Rol." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod-3",
+      "ordem": 3,
+      "titulo": "Tipos de Planos",
+      "descricao": "Aprenda sobre as modalidades e características dos planos",
+      "duracao": 35,
+      "cor": "#8B5CF6",
+      "icone": "clipboard-list",
+      "licoes": [
+        {
+          "id": "lic-3-1",
+          "titulo": "Tipos de Contratação",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "A contratação de um Plano de Saúde tem variação de valor e atendimento de acordo com alguns critérios, como o tipo de contratação, área de abrangência, acomodação e coparticipação." },
+            { "tipo": "definicao", "termo": "Plano Pessoa Física (Individual/Familiar)", "explicacao": "Contratado diretamente por uma pessoa, possui regras definidas pela ANS." },
+            { "tipo": "definicao", "termo": "Plano Pessoa Jurídica (Empresarial/Adesão)", "explicacao": "Contratado por uma empresa e oferecido aos colaboradores, com condições definidas em contrato e regras da ANS." }
+          ]
+        },
+        {
+          "id": "lic-3-2",
+          "titulo": "Área de Abrangência",
+          "duracao": 6,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Área de Abrangência", "explicacao": "Define os locais onde o beneficiário poderá utilizar o plano e receber atendimento." },
+            { "tipo": "lista", "titulo": "Opções de abrangência", "itens": [
+              "Regional - Atendimento em uma região específica",
+              "Estadual - Atendimento em todo o estado",
+              "Nacional - Atendimento em todo o país"
+            ]},
+            { "tipo": "exemplo", "titulo": "Exemplo prático", "conteudo": "Se o cliente optou pelo plano Unimed Cariri na abrangência estadual, ele terá acesso ao atendimento apenas no estado do Ceará." }
+          ]
+        },
+        {
+          "id": "lic-3-3",
+          "titulo": "Acomodação",
+          "duracao": 5,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "A escolha da acomodação se refere ao tipo de quarto que será utilizado em caso de internações hospitalares." },
+            { "tipo": "definicao", "termo": "Enfermaria", "explicacao": "Quarto compartilhado com outros pacientes." },
+            { "tipo": "definicao", "termo": "Apartamento", "explicacao": "Quarto individual para o paciente." }
+          ]
+        },
+        {
+          "id": "lic-3-4",
+          "titulo": "Coparticipação",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Coparticipação", "explicacao": "Valor extra pago ao plano de saúde além da mensalidade, que varia de acordo com a utilização do plano." },
+            { "tipo": "texto", "conteudo": "Quando um beneficiário tem um plano com coparticipação e faz algum atendimento (consultas, exames, terapias), será cobrado um valor de porcentagem baseado no valor de remuneração da rede credenciada." },
+            { "tipo": "destaque", "conteudo": "A Unimed Cariri oferece planos com coparticipação de 20% ou 40%, ou também sem coparticipação.", "cor": "green" },
+            { "tipo": "importante", "texto": "Planos sem coparticipação não têm nenhuma cobrança adicional à mensalidade pelos atendimentos realizados." }
+          ]
+        },
+        {
+          "id": "lic-3-5",
+          "titulo": "Serviços Opcionais",
+          "duracao": 9,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "O beneficiário pode adicionar serviços extras ao seu plano. Na Unimed Cariri, comercializamos duas opções:" },
+            { "tipo": "definicao", "termo": "RAIH - Remoção Aérea Inter-Hospitalar", "explicacao": "Possibilita ao cliente utilizar remoção aérea quando necessário para pacientes internados em UTI mudarem de hospital." },
+            { "tipo": "definicao", "termo": "OMT - Orientação Médica por Telefone", "explicacao": "O beneficiário pode entrar em contato com um médico por telefone para tirar dúvidas ou ter orientação médica disponível 24 horas. Não é uma consulta, apenas para orientações." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod-4",
+      "ordem": 4,
+      "titulo": "Carências e Coberturas",
+      "descricao": "Entenda os prazos e tipos de cobertura dos planos",
+      "duracao": 25,
+      "cor": "#F59E0B",
+      "icone": "timer",
+      "licoes": [
+        {
+          "id": "lic-4-1",
+          "titulo": "Carência",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Carência", "explicacao": "Período determinado em contrato para que o beneficiário comece a fazer uso dos serviços do plano de saúde. Começa a contar a partir da data de contratação." },
+            { "tipo": "importante", "texto": "Todos os períodos de carência são regulamentados pela ANS." },
+            { "tipo": "lista", "titulo": "Prazos de carência", "itens": [
+              "24 horas - Atendimentos de urgência e emergência",
+              "180 dias - Maioria dos procedimentos",
+              "300 dias - Parto a termo"
+            ]}
+          ]
+        },
+        {
+          "id": "lic-4-2",
+          "titulo": "Contratos Regulamentados e Não Regulamentados",
+          "duracao": 10,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "O contrato de plano de saúde é o documento que define os direitos e deveres da operadora e do beneficiário, como coberturas, carências, formas de utilização do plano e regras de reajustes." },
+            { "tipo": "definicao", "termo": "Contrato Regulamentado", "explicacao": "Segue integralmente as regras da Lei nº 9.656/98 e normas da ANS. Aplicado aos planos firmados a partir de 1º de janeiro de 1999 ou anteriores adaptados." },
+            { "tipo": "lista", "titulo": "Características do contrato regulamentado", "itens": [
+              "Cumprimento do Rol de Procedimentos da ANS",
+              "Regras claras sobre reajustes, carências e cancelamento",
+              "Sujeito à fiscalização direta da ANS",
+              "Maior proteção ao beneficiário"
+            ]},
+            { "tipo": "definicao", "termo": "Contrato Não Regulamentado", "explicacao": "Contratos firmados antes de 1º de janeiro de 1999 e não adaptados às regras da Lei nº 9.656/98. Estão se tornando raros." },
+            { "tipo": "lista", "titulo": "Características do contrato não regulamentado", "itens": [
+              "Não segue integralmente as normas atuais da ANS",
+              "Coberturas limitadas ao previsto no contrato original",
+              "Pode ter restrições inexistentes nos regulamentados",
+              "Atuação da ANS é mais limitada"
+            ]},
+            { "tipo": "destaque", "conteudo": "É importante entender se um contrato é regulamentado ou não para orientar corretamente os beneficiários e atuar em conformidade com a legislação.", "cor": "blue" }
+          ]
+        },
+        {
+          "id": "lic-4-3",
+          "titulo": "DLP e Cobertura Parcial Temporária",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "DLP - Doenças ou Lesões Preexistentes", "explicacao": "Condições de saúde que o beneficiário já sabia possuir no momento da contratação do plano." },
+            { "tipo": "importante", "texto": "No ato da adesão ao plano, o beneficiário deve informar corretamente seu estado de saúde, por meio da declaração de saúde." },
+            { "tipo": "definicao", "termo": "CPT - Cobertura Parcial Temporária", "explicacao": "Por um período máximo de 24 meses, ficam suspensas as coberturas de procedimentos de alta complexidade, cirurgias e leitos de alta tecnologia relacionados exclusivamente à DLP." },
+            { "tipo": "lista", "titulo": "Procedimentos que podem ser suspensos na CPT", "itens": [
+              "UTI",
+              "Procedimentos cirúrgicos",
+              "Ressonância magnética",
+              "Outros exames de alta complexidade"
+            ]},
+            { "tipo": "destaque", "conteudo": "Durante a CPT, o beneficiário mantém direito às demais coberturas do plano, incluindo atendimentos de urgência e emergência. Após 24 meses, a cobertura passa a ser integral.", "cor": "green" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod-5",
+      "ordem": 5,
+      "titulo": "Atendimento e Intercâmbio",
+      "descricao": "Saiba como funciona o atendimento em diferentes situações",
+      "duracao": 30,
+      "cor": "#EF4444",
+      "icone": "hotel",
+      "licoes": [
+        {
+          "id": "lic-5-1",
+          "titulo": "Intercâmbio Unimed",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "definicao", "termo": "Intercâmbio Unimed", "explicacao": "Sistema que permite que um beneficiário seja atendido fora da sua Unimed de origem, em qualquer local onde exista uma Unimed participante da rede." },
+            { "tipo": "texto", "conteudo": "Mesmo que o cliente tenha o plano de uma Unimed específica, ele pode ser atendido por outra Unimed em outra cidade ou estado, desde que seja incluso em sua área de abrangência contratada." },
+            { "tipo": "destaque", "conteudo": "Para o beneficiário, o atendimento acontece de forma normal, respeitando carências, coberturas, tipo de acomodação e regras do plano contratado.", "cor": "green" },
+            { "tipo": "definicao", "termo": "Unimed Executora", "explicacao": "Unimed que está realizando o atendimento. Responsável por solicitar autorização pelo Sistema de Intercâmbio Eletrônico." },
+            { "tipo": "definicao", "termo": "Unimed de Origem", "explicacao": "Unimed onde o beneficiário contratou o plano. Responsável por validar coberturas, assumir custos e dar parecer nas autorizações." }
+          ]
+        },
+        {
+          "id": "lic-5-2",
+          "titulo": "Urgência e Emergência",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "Para lidar com situações críticas, é fundamental entender a diferença entre urgência e emergência." },
+            { "tipo": "definicao", "termo": "Urgência", "explicacao": "Situação resultante de acidente pessoal ou complicações no processo gestacional. Exemplos: fraturas, cortes profundos, dores intensas decorrentes de acidentes ou ameaça de aborto." },
+            { "tipo": "definicao", "termo": "Emergência", "explicacao": "Quando há risco imediato de morte ou de lesões irreparáveis para o paciente. Exemplos: infarto, AVC, crises respiratórias graves ou hemorragias intensas." },
+            { "tipo": "importante", "texto": "Casos de emergência exigem atendimento imediato!" }
+          ]
+        },
+        {
+          "id": "lic-5-3",
+          "titulo": "Atendimento durante Carência",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "destaque", "conteudo": "Segundo a ANS, após 24 horas da contratação do plano, o beneficiário já tem direito ao atendimento de urgência e emergência.", "cor": "blue" },
+            { "tipo": "texto", "conteudo": "Em casos de acidentes pessoais, depois de 24 horas da assinatura do contrato, a cobertura é integral, de acordo com o Rol da ANS." },
+            { "tipo": "importante", "texto": "Em casos de complicações na gestação ou outras emergências durante o período de carência, o plano garante até 12 horas de atendimento ambulatorial em ambiente hospitalar." },
+            { "tipo": "texto", "conteudo": "Se houver indicação de internação durante a carência, a cobertura do plano é encerrada e a operadora deve garantir a remoção do beneficiário para uma unidade credenciada pelo SUS." }
+          ]
+        },
+        {
+          "id": "lic-5-4",
+          "titulo": "Remoções",
+          "duracao": 7,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "A ANS possui uma resolução específica para tratar sobre remoções de beneficiários." },
+            { "tipo": "lista", "titulo": "Regras obrigatórias de remoção", "itens": [
+              "Durante carência: operadora deve garantir remoção para hospital credenciado ao SUS",
+              "Beneficiário em unidade SUS após carências: direito à remoção para rede credenciada",
+              "Hospital credenciado sem suporte necessário: remoção deve ser autorizada"
+            ]},
+            { "tipo": "importante", "texto": "Essas obrigatoriedades se referem a remoções terrestres. A Remoção Aérea para UTI só está disponível para beneficiários que contrataram esse serviço opcional." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod-6",
+      "ordem": 6,
+      "titulo": "Gestão Contratual",
+      "descricao": "Aprenda sobre reajustes, cancelamentos e benefícios",
+      "duracao": 25,
+      "cor": "#06B6D4",
+      "icone": "file-text",
+      "licoes": [
+        {
+          "id": "lic-6-1",
+          "titulo": "Reajustes",
+          "duracao": 9,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "Existem dois tipos de reajuste de mensalidades: o anual e o de faixa etária." },
+            { "tipo": "definicao", "termo": "Reajuste Anual", "explicacao": "Aplicado uma vez por ano, na data de aniversário do contrato. Em planos PF, o índice é definido pela ANS. Em planos PJ, é definido conforme contrato." },
+            { "tipo": "definicao", "termo": "Reajuste por Faixa Etária", "explicacao": "Ocorre quando o beneficiário muda de idade dentro das faixas estabelecidas pela ANS. Acontece no mês seguinte ao aniversário." },
+            { "tipo": "exemplo", "titulo": "Exemplo de reajuste por faixa etária", "conteudo": "Se o beneficiário faz aniversário em abril, o reajuste só irá ocorrer na mensalidade de maio." },
+            { "tipo": "destaque", "conteudo": "Existem 10 faixas etárias, sendo a última a partir dos 59 anos. A ANS determina que o valor da última faixa tenha um limite em relação à primeira.", "cor": "blue" }
+          ]
+        },
+        {
+          "id": "lic-6-2",
+          "titulo": "Cancelamento de Plano",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "O contrato de um plano de saúde pode ser encerrado pela operadora ou pelo próprio beneficiário, mas cada situação tem regras específicas." },
+            { "tipo": "lista", "titulo": "Cancelamento pelo beneficiário", "itens": [
+              "Pode ser feito a qualquer momento",
+              "Mediante solicitação formal (presencial ou SAC)",
+              "Antes de 1 ano: pode haver multa rescisória"
+            ]},
+            { "tipo": "lista", "titulo": "Cancelamento pela operadora (casos permitidos)", "itens": [
+              "Não pagamento de 2 mensalidades (após aviso e prazo de 60 dias)",
+              "Fraude ou informações falsas na contratação",
+              "Encerramento de plano coletivo conforme contrato",
+              "Perda da condição de dependência"
+            ]},
+            { "tipo": "importante", "texto": "Fora dessas situações, o cancelamento unilateral pela operadora não é permitido, garantindo a proteção do beneficiário." }
+          ]
+        },
+        {
+          "id": "lic-6-3",
+          "titulo": "Benefícios FAC e FAS",
+          "duracao": 8,
+          "conteudo": [
+            { "tipo": "texto", "conteudo": "Alguns planos da Unimed Cariri preveem benefícios especiais como FAC e FAS." },
+            { "tipo": "definicao", "termo": "FAC - Fundo de Assistência Complementar", "explicacao": "Quando ocorre o falecimento do beneficiário titular, os dependentes podem permanecer no plano por até 3 anos sem pagar mensalidades." },
+            { "tipo": "lista", "titulo": "Regras do FAC", "itens": [
+              "Contrato precisa ter mais de 180 dias",
+              "Dependentes incluídos após inscrição: carência de 12 meses",
+              "Deve preencher condições de dependência do contrato"
+            ]},
+            { "tipo": "definicao", "termo": "FAS - Fundo de Assistência Suplementar", "explicacao": "Benefício convertido em valor destinado ao familiar de grau mais próximo do titular, em caso de óbito." },
+            { "tipo": "lista", "titulo": "Regras do FAS", "itens": [
+              "Mensalidades em aberto suspendem o beneficiário",
+              "Necessário cumprir 7 meses de carência",
+              "Família tem 30 dias após óbito para dar entrada"
+            ]},
+            { "tipo": "destaque", "conteudo": "Parabéns! Você concluiu o treinamento de capacitação da Unimed Cariri. Aqui tem gente. Aqui tem saúde. Aqui tem Unimed Cariri.", "cor": "green" }
+          ]
+        }
+      ]
+    }
+  ]
+}

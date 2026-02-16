@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --color-primary: #00A859;
+    --color-primary-dark: #008546;
+    --color-secondary: #0066CC;
+    --color-secondary-dark: #0052a3;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-surface-50 text-surface-900;
+    min-height: 100vh;
+  }
+
+  .dark body,
+  body:where(.dark) {
+    @apply bg-surface-900 text-surface-100;
+  }
+
+  ::selection {
+    @apply bg-unimed-green-500/20 text-unimed-green-900;
+  }
+
+  .dark ::selection,
+  ::selection:where(.dark *) {
+    @apply bg-unimed-green-500/30 text-unimed-green-100;
+  }
+}
+
+@layer components {
+  /* Focus ring global */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-unimed-green-500 focus:ring-offset-2;
+  }
+
+  /* Scrollbar customizada */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-surface-100 dark:bg-surface-800 rounded-full;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-surface-300 dark:bg-surface-600 rounded-full hover:bg-surface-400 dark:hover:bg-surface-500;
+  }
+
+  /* Card base */
+  .card {
+    @apply bg-white rounded-card shadow-card p-6 transition-shadow hover:shadow-card-hover;
+  }
+
+  .dark .card {
+    @apply bg-surface-800 shadow-none border border-surface-700;
+  }
+
+  /* Input base */
+  .input-base {
+    @apply w-full px-4 py-3 rounded-lg border border-surface-200 
+           bg-white text-surface-900 placeholder:text-surface-400
+           focus:outline-none focus:border-unimed-green-500 focus:ring-2 focus:ring-unimed-green-500/20
+           transition-all duration-200;
+  }
+
+  .dark .input-base {
+    @apply bg-surface-800 text-white border-surface-600 placeholder:text-surface-500
+           focus:border-unimed-green-400;
+  }
+}
+
+@layer utilities {
+  /* Gradient verde Unimed */
+  .gradient-unimed {
+    @apply bg-gradient-to-r from-unimed-green-500 to-unimed-green-600;
+  }
+
+  /* Texto gradiente */
+  .text-gradient {
+    @apply bg-gradient-to-r from-unimed-green-500 to-unimed-blue-500 bg-clip-text text-transparent;
+  }
+
+  /* Animação de loading */
+  .animate-spin-slow {
+    animation: spin 2s linear infinite;
+  }
+}
