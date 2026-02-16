@@ -1,10 +1,12 @@
-'use client'
+
+"use client"
 
 import Link from 'next/link'
 import Image from 'next/image'
 import { useAuthStore, useThemeStore } from '@/stores'
 import { Menu, X, User, LogOut, Settings, ChevronDown, Sun, Moon, PanelLeftClose, PanelLeft } from 'lucide-react'
 import { useState, useRef, useEffect } from 'react'
+import { getModulos } from '@/lib/modulos'
 
 interface HeaderProps {
   onMenuClick?: () => void
@@ -38,10 +40,8 @@ export function Header({ onMenuClick, isSidebarOpen, isSidebarCollapsed, onToggl
   }, [])
 
   // Calcular progresso
-    const completedModules = user?.progress.completedModules.length ?? 0
-    // Importa o total de módulos do JSON
-    import { getModulos } from '@/lib/modulos'
-    const totalModules = getModulos().length
+  const completedModules = user?.progress.completedModules.length ?? 0
+  const totalModules = getModulos().length
 
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-surface-800 border-b border-surface-200 dark:border-surface-700 shadow-sm dark:shadow-none">
