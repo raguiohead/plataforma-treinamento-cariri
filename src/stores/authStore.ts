@@ -73,9 +73,30 @@ export const useAuthStore = create<AuthStore>()(
       login: async (credentials: LoginCredentials) => {
         set({ isLoading: true, error: null })
 
-        // Simula delay de rede
-        await new Promise(resolve => setTimeout(resolve, 800))
+        try {
+          // Verifica admin via API (credenciais seguras no servidor)
+          const response = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(credentials),
+          })
 
+          const data = await response.json()
+
+          if (data.success && data.isAdmin) {
+            set({
+              user: data.user,
+              isAuthenticated: true,
+              isLoading: false,
+              error: null,
+            })
+            return true
+          }
+        } catch {
+          // Continua para validação local se API falhar
+        }
+
+        // Validação local para usuários normais
         const users = getStoredUsers()
         const storedUser = users[credentials.email]
 

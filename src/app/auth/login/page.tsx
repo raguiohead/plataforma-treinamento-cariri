@@ -153,22 +153,6 @@ export default function LoginPage() {
           </p>
         </div>
       </Card>
-
-      {/* Demo credentials */}
-      <div className="mt-6 p-4 rounded-lg bg-surface-100 dark:bg-surface-800 text-center">
-        <p className="text-sm text-surface-600 dark:text-surface-400">
-          <strong>Dica:</strong> Crie uma conta para começar ou use{' '}
-          <button
-            type="button"
-            onClick={() =>
-              setFormData({ email: 'demo@unimed.com', password: 'Demo123' })
-            }
-            className="text-unimed-green-600 hover:underline font-medium"
-          >
-            credenciais demo
-          </button>
-        </p>
-      </div>
     </div>
   )
 }
