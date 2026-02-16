@@ -1,3 +1,23 @@
+# 🔑 Usuário Administrador
+
+Para acesso irrestrito à plataforma, utilize o login de administrador:
+
+- **E-mail:** `admin@unimedcariri.com.br`
+- **Senha:** definida na variável de ambiente `ADMIN_PASSWORD`
+
+As credenciais do admin são configuradas via variáveis de ambiente para segurança.
+
+### Variáveis de ambiente necessárias
+
+Crie um arquivo `.env.local` na raiz do projeto com:
+
+```
+ADMIN_EMAIL=admin@unimedcariri.com.br
+ADMIN_PASSWORD=Un1m3d@C4r1r1#Adm2026!
+```
+
+No Vercel, adicione as mesmas variáveis em **Project Settings > Environment Variables**.
+
 # Treinamento Unimed Cariri
 
 Plataforma de treinamento para colaboradores da Unimed Cariri.
@@ -68,9 +88,11 @@ src/
 └── types/                  # TypeScript types
 ```
 
+
 ## 🔐 Autenticação
 
-O sistema usa autenticação local com persistência em localStorage:
+- **Usuários comuns**: cadastro e login persistem localmente no navegador (localStorage)
+- **Admin**: login validado via API segura usando variáveis de ambiente
 
 1. **Cadastro**: Crie uma conta com nome, email e senha
 2. **Login**: Acesse com suas credenciais
