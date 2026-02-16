@@ -23,6 +23,7 @@ import {
   CheckCircle2,
   Clock,
   BookOpen,
+  Lock,
 } from 'lucide-react'
 import Link from 'next/link'
 
