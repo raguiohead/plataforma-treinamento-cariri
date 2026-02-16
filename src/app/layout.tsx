@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     icon: '/favicon.svg',
     apple: '/logo-unimedcariri.png',
   },
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
